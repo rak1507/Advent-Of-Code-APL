@@ -7,4 +7,4 @@ f←∊¨∘(⊃¨contained)
 1-⍨≢{∪⍵,⊃,/{bags[⍸f⊂⊂⍵]}¨⍵}⍣≡⊂'shiny gold'
 
 ⍝ Part 2
-1-⍨1{⍺=0:0 ⋄ ⍺+⍺×+/∇⍨⌿↑⊃contained⌷⍨⍸bags≡¨⊂⍵}'shiny gold'
+1-⍨1{⍺=0:0 ⋄ ⍺+⍺×+/∇⍨⌿↑⊃contained⌷⍨bags⍳⊂⍵}'shiny gold'
