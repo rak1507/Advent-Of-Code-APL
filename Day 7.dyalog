@@ -1,5 +1,5 @@
 text←⊃⎕NGET 'Day 7.txt' 1
-bags←{⊃'(\w+ \w+)'⎕S'\1'⊢⍵}¨text
+bags←⊃¨'\w+ \w+'⎕S'&'¨text
 contained←{no←0 ⋄ ⍎¨'(\d+|no) (\w+ \w+|other) bag'⎕S'\1,⊂''\2'''⊢⍵}¨text
 
 ⍝ Part 1
