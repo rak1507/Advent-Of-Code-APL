@@ -8,7 +8,7 @@ eval←{
     RSHIFT←{⌊⍺÷2*⍵}
     LSHIFT←{⍺×2*⍵}
     a b←⍺
-    f←v∘⍳
+    f←b∘⍳
     vals←⎕NS ⍬
     {⍵≡1 ⎕C ⍵:⍵ 
     0::⊢vals⍎⍕⍵,'←',⍎∊' ',¨⍕¨∇¨a⊃⍨f⊂,⍵
