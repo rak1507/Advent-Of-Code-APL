@@ -1,2 +1,2 @@
-# Advent-Of-Code-2020-APL
-APL solutions to the 2020 Advent of Code
+# Advent-Of-Code-APL
+APL solutions to the Advent of Code
