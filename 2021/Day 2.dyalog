@@ -4,4 +4,4 @@ h d a←0⋄forward←{h+←⍵⋄d+←a×⍵}⋄down←{a+←⍵}⋄up←{a-←
 
 ⍝ using complex nums
 ×/|9 11○+/data←(⊢/×0J1*'fu'⍸⊣/)↑' '(⍎¨@1≠⊆⊢)¨⊃⎕NGET'Day 2.txt'1
-(9○+/×1⊥∘|11○+\×⊢×0≠9○⊢)data
+(9○+/×1⊥∘|11○+\×9○⊢)data
